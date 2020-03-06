@@ -1,18 +1,12 @@
 # Научиться учиться
 
-###### Версия проекта: 0.0.3
+###### Версия проекта: 0.0.1
 
 ## О проекте
-Сервис для размещения фотографий.
+Одностраничный сайт с анимацией.
 > Это учебный проект, сделан в [Яндекс.Практикуме](https://praktikum.yandex.ru). Код проходил код-ревью.
-
-Реализована логика:
-1. Загрузка информации о пользователе;
-2. Загрузка первоначальных карточек с сервера;
-3. Редактирование профиля и аватара пользователя;
-4. Добавление и удаление карточки;
-5. Отображение количества лайков карточки;
-6. Постановка и снятие лайка.
 ## Демо
-[https://romcath.github.io/praktikum_mesto/](https://romcath.github.io/praktikum_mesto/)
-![alt-текст](https://raw.githubusercontent.com/romcath/praktikum_mesto/master/src/images/main.jpg "Демо Mesto")
+[https://romcath.github.io/praktikum_learn-to-learn/](https://romcath.github.io/praktikum_learn-to-learn/.)
+![alt-текст](https://raw.githubusercontent.com/romcath/praktikum_learn-to-learn/master/images/main.gif "Демо")
+## Стек технологий
+HTML, CSS
