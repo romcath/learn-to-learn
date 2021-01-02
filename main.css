@@ -1,0 +1,73 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}[hidden],template{display:none}
+.page{min-width:1100px;max-width:1600px;margin:0 auto;font-family:Helvetica Neue,Arial,sans-serif}
+.page__section{padding-top:100px}
+.page__oakley{padding:160px 0 80px}
+.page__khan{padding-top:105px;margin-top:100px}
+.page__kaufman{padding:90px 0}
+.page__resources{padding:100px 0 217px}
+.link-transition{opacity:1;transition:opacity .5s ease}.link-transition:hover{opacity:.6}
+.header{height:100vh;min-height:600px;max-height:756px;display:flex;position:relative;background-color:#f2f2f2;overflow:hidden;z-index:1}
+.header__title{max-width:730px;margin:0 0 0 64px;align-self:center;font-size:102px;line-height:96px;font-weight:700}
+.header__subtitle{max-width:388px;margin:0;font-size:18px;line-height:25px;font-weight:400;position:absolute;bottom:30px;left:64px}
+.header__link{text-decoration:none;color:#2f80ed}
+.header__main-illustration{width:765px;height:608px;position:absolute;bottom:0;right:0;z-index:-1}
+.header__square-pic{height:568px;width:568px;background-color:#2f80ed;position:absolute;top:64px;right:0;transform:rotate(-15deg);z-index:-2}
+@-webkit-keyframes rotate{0%{transform:rotate(-15deg)}to{transform:rotate(345deg)}}@keyframes rotate{0%{transform:rotate(-15deg)}to{transform:rotate(345deg)}}@-webkit-keyframes triangle_rotate{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@keyframes triangle_rotate{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}.rotation{-webkit-animation:rotate 20s linear infinite;animation:rotate 20s linear infinite}
+.logo{background-position:50%;width:183px}
+.logo_place_header{height:32px;background-image:url(c92b6df2cae36066dabe.svg);position:absolute;top:30px;left:64px}
+.logo_place_footer{height:35px;background-image:url(bc3a6d712f9a1f9c06ee.svg)}
+.description{display:flex}
+.two-columns{width:80%;margin:auto;display:flex;justify-content:space-between}
+.two-columns__brief{width:175px;font-size:18px;line-height:1.2;font-weight:400;color:#2f80ed;margin:0}
+.two-columns__main-text{width:80%;min-width:784px;display:flex;flex-direction:column}
+.two-columns__paragraph{min-width:784px;font-size:24px;line-height:34px;font-weight:400;margin:0 0 30px}.two-columns__paragraph:last-child{margin-bottom:0}
+.two-columns__span-accent{font-size:24px;line-height:34px;font-weight:700}
+.section-title{max-width:60%;margin:auto;font-size:60px;line-height:69px;font-weight:700;text-align:center}
+.section-title_theme_dark{color:#fff}
+.section-subtitle{max-width:60%;margin:20px auto 0;font-size:24px;line-height:34px;font-weight:400;text-align:center}
+.section-subtitle_theme_dark{color:#fff}
+.cards{width:80%;display:grid;grid-template-columns:repeat(3,240px);grid-column-gap:100px;grid-row-gap:60px;justify-content:center;list-style-type:none;margin:0 auto;padding:0}
+.cards__item{width:240px;padding-top:60px;text-align:center}
+.cards__image{width:160px;height:160px;border-radius:50%}
+.cards__title{margin:43px 0 16px;font-size:24px;line-height:1.15;font-weight:700;text-align:center}
+.cards__description{margin:0;font-size:18px;line-height:23px;font-weight:400;text-align:center}
+.video__iframes{display:flex;justify-content:center;transform:translateY(50px)}
+.video__iframe{width:515px;height:316px;margin-right:20px;border:0}.video__iframe:last-child{margin-right:0}
+.oakley{background-color:#f2f2f2}
+.feynman{min-height:790px;position:relative;background:no-repeat 0 100% url(720eed9e9012a8956445.png),#f2f2f2;background-size:867px 637px}
+.feynman__title{max-width:648px;margin:0 auto;font-size:120px;line-height:1.15;font-weight:700;text-align:center}
+.feynman__subtitle{margin:70px auto 0;font-size:36px;line-height:51px;font-weight:400;text-align:center}
+.feynman__link{font-size:36px;line-height:51px;font-weight:400;text-decoration:none;color:#2f80ed;position:absolute;top:44%;right:48px}
+.digits{display:flex;flex-direction:column}
+.table{width:1100px;margin:0 auto;padding:0;display:flex;flex-wrap:wrap;justify-content:space-between;list-style-type:none;z-index:1}
+.table__cell{width:250px;margin-top:60px}
+.table__cell_theme_dark{width:200px;color:#fff;margin-right:0;margin-top:80px}
+.table__heading{font-size:24px;line-height:1.15;font-weight:700;margin:0}
+.table__text{font-size:18px;line-height:1.2;font-weight:400;margin:20px 0 0}
+.khan{background-color:#f2f2f2}
+.khan__container{width:80%;margin:auto}
+.khan__author{margin:0;font-size:30px;line-height:42px;font-weight:400}
+.khan__title{margin:0;font-size:60px;line-height:1.15;font-weight:700}
+.khan__quote{max-width:790px;margin:50px 0 36px;font-size:24px;line-height:34px;font-weight:400}
+.khan__quote-author{margin:0 0 10px;font-size:24px;line-height:1.15;font-weight:700}
+.khan__quote-author-subline{margin:0 0 68px;font-size:24px;line-height:1.15;font-weight:400}
+.khan__book-container{display:flex}
+.khan__book-pic{width:620px;height:608px;margin-right:48px;-o-object-fit:cover;object-fit:cover;-o-object-position:right top;object-position:right top}
+.khan__buy-link{font-size:30px;line-height:42px;font-weight:400;text-decoration:none;color:#2f80ed;align-self:flex-start}
+.kaufman{background-color:#1f1f1f;overflow:hidden;position:relative;z-index:1}
+.kaufman__triangle{width:877px;height:877px;background-image:url(7b8d00d6b503d3ddbc4a.svg);background-size:cover;position:absolute;right:-210px;top:0;z-index:-1}
+.resources__logo-zone{width:1100px;margin:80px auto 0;display:flex;justify-content:center}
+.resources__logo{width:270px;height:38px;background:50%/contain no-repeat}
+.resources__logo_img_arzamas{background-image:url(37d3e2f0560d82864014.svg)}
+.resources__logo_img_n1{background-image:url(e1480da73643e6397a36.svg)}
+.resources__logo_img_strelka{background-image:url(6cc3a283e035bc856fd8.svg)}
+.resources__logo_img_polka{background-image:url(d86f98c24d2345134281.svg)}
+.footer{background-color:#1f1f1f;min-height:350px;display:flex;color:#fff}
+.footer__columns{width:90%;margin:60px auto 40px;display:flex;justify-content:space-between}
+.footer__column{display:flex;flex-direction:column}
+.footer__column_content_copyright{flex-basis:711px;justify-content:space-between}
+.footer__author{margin:18px 0;font-size:18px;line-height:25px;font-weight:400}
+.footer__column-heading{font-size:18px;line-height:30px;font-weight:700;margin:0 0 20px}
+.footer__column-links{font-size:18px;line-height:30px;font-weight:400;text-decoration:none;color:#fff}.footer__column-links:last-child{margin-bottom:0}
+.footer__social-icons{width:16px;height:16px;margin-right:10px}
+
