@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "hint": "htmlhint ./public/index.html",
-    "deploy": "gh-pages -d public",
+    "deploy": "gh-pages -d dist",
     "build": "webpack --mode production",
     "dev": "webpack serve"
   },
