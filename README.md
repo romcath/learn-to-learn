@@ -9,6 +9,8 @@
 ## Демо
 [https://romcath.github.io/learn-to-learn](https://romcath.github.io/learn-to-learn)
 
+![alt-текст](https://github.com/romcath/learn-to-learn/blob/master/src/images/demo_learn.jpg "Научиться учиться")
+
 ## Установка проекта
 #### Клонируйте репозиторий
 
